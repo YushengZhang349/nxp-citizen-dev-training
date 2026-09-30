@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="nxp-citizen-dev-training Search Profile">03c904f6b7230750ed129b42ca10be5f</profile>
+        <search_source display_value="Training Record">aad908f6c3230750197739ec05013123</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:38:23</sys_created_on>
+        <sys_id>6ed908f6c3230750197739ec05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nxp-citizen-dev-training Search Profile.Training Record</sys_name>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_6ed908f6c3230750197739ec05013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:38:23</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

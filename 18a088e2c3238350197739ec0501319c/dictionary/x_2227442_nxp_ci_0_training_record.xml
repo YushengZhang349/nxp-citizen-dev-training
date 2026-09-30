@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="21d4cceac3238350197739ec05013119" label="Training Record" max_length="40" name="x_2227442_nxp_ci_0_training_record" text_index="true" type="collection">
+        <element label="Completion Date" max_length="40" name="completion_date" type="glide_date"/>
+        <element label="Training Name" max_length="40" name="training_name" type="string"/>
+        <element choice="3" label="Status" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Trainee" max_length="40" name="trainee" type="string"/>
+    </element>
+</database>

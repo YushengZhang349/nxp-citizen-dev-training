@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="NXP Citizen Dev Training_menu_config">1dd984f6c3230750197739ec050131f9</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:38:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1d984f6c3230750197739ec050131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name>sys_ux_list_category_d1d984f6c3230750197739ec050131fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:38:18</sys_updated_on>
+        <title>Training Record</title>
+    </sys_ux_list_category>
+</record_update>

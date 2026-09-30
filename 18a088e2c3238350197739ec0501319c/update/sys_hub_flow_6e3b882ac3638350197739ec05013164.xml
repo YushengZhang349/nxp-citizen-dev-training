@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=65607000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Trigger when a new training record is created</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>new_training_record_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>0c854cbec3efc350197739ec0501319a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>New Training Record Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>a8858cbec3efc350197739ec0501315a</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 08:05:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e3b882ac3638350197739ec05013164</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>New Training Record Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name>sys_hub_flow_6e3b882ac3638350197739ec05013164</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:25</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>cd858cbec3efc350197739ec050131c8</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e3b882ac3638350197739ec05013164"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6e3b882ac3638350197739ec05013164"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_2227442_nxp_ci_0_training_record">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8858cbec3efc350197739ec0501315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:25</sys_updated_on>
+        <table>x_2227442_nxp_ci_0_training_record</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>6e3b882ac3638350197739ec05013164</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:25</sys_created_on>
+        <sys_id>e0858cbec3efc350197739ec0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:25</sys_updated_on>
+        <trigger display_value="">a8858cbec3efc350197739ec0501315a</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6e3b882ac3638350197739ec05013164^sys_idNOT INe0858cbec3efc350197739ec0501315c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6e3b882ac3638350197739ec05013164"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6e3b882ac3638350197739ec05013164^sys_idNOT IN663b882ac3638350197739ec05013169"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6e3b882ac3638350197739ec05013164</id>
+        <name>New Training Record Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 08:05:55</sys_created_on>
+        <sys_id>663b882ac3638350197739ec05013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 08:05:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=663b882ac3638350197739ec05013169"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6e3b882ac3638350197739ec05013164^sys_idNOT IN4dbeb762c3efc350197739ec050131f0,f8beb762c3efc350197739ec050131a7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Training Record Flow">6e3b882ac3638350197739ec05013164</model>
+        <model_id>6e3b882ac3638350197739ec05013164</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6e3b882ac3638350197739ec05013164</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 01:49:40</sys_created_on>
+        <sys_id>4dbeb762c3efc350197739ec050131f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4dbeb762c3efc350197739ec050131f0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Training Record Flow">6e3b882ac3638350197739ec05013164</model>
+        <model_id>6e3b882ac3638350197739ec05013164</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6e3b882ac3638350197739ec05013164</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 01:49:39</sys_created_on>
+        <sys_id>f8beb762c3efc350197739ec050131a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f8beb762c3efc350197739ec050131a7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6e3b882ac3638350197739ec05013164^sys_idNOT IN28be7baac36fc350197739ec050131b4"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New Training Record Flow">6e3b882ac3638350197739ec05013164</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 01:49:38</sys_created_on>
+        <sys_id>28be7baac36fc350197739ec050131b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:22</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VZW2/iOBT+K1GediRGyoVL6dsMZbSVuq2WMrsPVTdyEhusNTaTOGmZUf/7HucCIRcKhXTpUxXbsb/z+TvfOaEPv3SGXMz0S32KXIb1jk65xAFHbLpaYhiWatjhaKHmFoj7SIpgpV/KIMIdnQRiMcWLJUMSFhPEQhgUgY8D/dLs6DFiEb5fhdc+7ATvJ9tke+rZNDw/O5ZlDbpdy+HPS8ejjuHIAFFO+cwJsAf7wWKfhnDM6q/snWm2QJvkC7w5ZX6AuX758NjRlyiAw6QC8qs0JSEyZyts7TaNjyqcHvHQ0MKGZ5u2ZRmGddE13b7tmpZvI2wYsK7MWSkuWUPdhhT8LDH3sb/mq8JqgJF/x9lqvWIOl5IyuEDPIf0Ju18Yah3BEJWH07n1o5NxlQ57c0E9fLeUVPB0JMWZTgoWLfhtil+xjAmKmMxZhpEohP3wUkFWIDJE5H4unib5gd8oT6LLJpnwEFs/ISkD6kYSh+oqCGVwKU7KTSiiIEE/GY/uJlfO31+mo9/HE2cyvp9OrkfT8ZX+ksTl/IjUjinCDIuThvOylsY3ipm6QB4tXEDT0UMvoEv5xZM0ztX50tkofiS4TxNWKqr38qlwW/V59LtkbxiNwvcKJ+bi/2f8Z1Xd6eDbFD0qYk8U3e8j5GPUoGiXFBRd5KQGtKyhpxj3Lm1nI/uIu2sY/5O8M1t7q7qfEJehI4WDfN8psARmABurEIWP2dXmPBinsxkkBOXLSIavyj2N7eVVbQcRhxec9X1UFZ7QtubvhoaA5gHy8x7/iFLSP4NZkZyqDD+5yQ6YRFwTXPOiADiSGlyzlh+mJSCVNMj1As0yomFjhj1Z0Ab5Hhaf/qBhCIZeCKYJS7KgCoatiohyMz4Gw+Mpk796JXEpnpIJvN0B8rtNst80CXExsYyByn3TsF1iGgOjh4hvG4ZnFbK/CrERuyzJqBUXOMwDwkTAbA9NlInPwBvFDNpL4PF2duQkKOFkVjM6DTTzRNAsBa1kmfZBnrkWazp8ta3ZXaGduJNAfozgDT+PcZ9OYQ/XJEw8gRsf75hEBHgWiIj7ZatSR2gU/m6taMcrXeT9uxvFZoX2W3apn87NNzeXkssa8VVrjmkT0x3iLjbAKG3wSLc3HLoesggZ9AfYMkuOuQFXi/hDOOUrYojr1NTkmrXyjuuy4gC/PAJgxTsPBni8a2ZyrfXMdO5juOPTHHMHoAYOU/5XMckZoz7O507rAZWj403Wn8oHbrKg1OnkYuj1zMHAG8AXE7gA6WIXmV2rh4aDvn3RK7lABd4u6LKGrXf5jgpXYQKkwSG+p1Pn9ZNBm1IOsZSqcB1d7ZPXUXpeodCqG9ISzxGBptjVrjcLtXsMZTP5sG6r+gs5r9R9QPIVxreQqB7yVvDPNeha/JDj8E2xD3ENyM6tSykpKt6+hJa+7nD3ojckdr1LkWGdS20gNoM/+65lT4HEjVKra1/2Tde4Nusb+403ZFxJPMVGZEendCpSzJOTYrVHin10d5ZnaOMn7VvAfqAqmLQmJyuFgmNHkFozp0TLfvDEvuauNDnHwC2Dflz9K0fBaLHapH12pRbCsJa1RK2VOXUnZVKuhAYTWvAutLRT60q6eY9vc+wPUK9nN3Tlw/K3eR3MV6I4+8p3sHDiOh3uLH+H7Vves7YAFtJsWyd7lraTRl1f346LurbCvRb18bVr1y8LNSjOtCo9/gdJx84aiiAAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6e3b882ac3638350197739ec05013164^sys_idNOT IN7f25c0bec3efc350197739ec05013138"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="New Training Record Flow">6e3b882ac3638350197739ec05013164</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:17:59</sys_created_on>
+        <sys_id>7f25c0bec3efc350197739ec05013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:22</sys_updated_on>
+        <ui_id>6afa5a9f-23b5-4950-9d7e-9e2c600ba239</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91UXWvbMBT9K0HPiYnjel3zNvoBhTWFFbKHUowsXScCWfJkOWkW8t93ZcuOm2UhGXsa+EXHR1fn3Huk1y0RnExJnLIwZexTHIXjcYRfmoX8JhzfAIs/X/NrMiSK5oBMqReJhBVIhFZUVg4TKtO45KIsJN3MPfrYoGwpJDegyPT1bUgKarCOBUOm24NfdlNAImmKpafkdqkFA9x+rrx241ev7YhcdwBCrC2tDXc6xkMC7xYUBzwqo7KEIcmp4tRqs+kQA5Q/K7kHlkJZrEYc+b0UP7H01djxMkBLDJp/3TLx3WngRkOJxred8tFoMNMKBqNRr7UfwFbwbrjf5bt8MArPDPvM79QooRY98hqRPXnSJ98bo02PCn7tudEOB8Yho5W0t+d6+YOukw4mlziILnBw5Rw0Y3gurNAYQhK6kNBUerFMyypXsyZIpPM7P0h9g94dDX9V4uChcOFyafHRyV6Wev2tTcaDULUi/1NqRmW3otYakVbW9XdLQEKOhZKcFgU2IimMXol6M4rNg4XERZBJvcZDS7FQAWXOWoBZpsED4nc1PKdGOJtPWAY37+qYJj8qd25j1CtO6rY4QsmMKOwXLLcCL841u76dk+jU7YT4423MoSzpAnqTmcF6YA0VbrYDAwwnNGB43yxeyN9eldPkv3tsXrDHdazOtdNufOq8HDXoH5yyLd+m/589OJM4vuzF6aJ+UdL/9yC//QJtVYSMBwcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f25c0bec3efc350197739ec05013138"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6e3b882ac3638350197739ec05013164"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6e3b882ac3638350197739ec05013164</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 01:49:40</sys_created_on>
+        <sys_id>01beb762c3efc350197739ec050131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 01:49:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6e3b882ac3638350197739ec05013164</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 01:49:40</sys_created_on>
+        <sys_id>bcbeb762c3efc350197739ec050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 01:49:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6e3b882ac3638350197739ec05013164"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6e3b882ac3638350197739ec05013164"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Trigger when a new training record is created</description>
+        <flow_priority/>
+        <internal_name>new_training_record_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>New Training Record Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="New Training Record Flow">6e3b882ac3638350197739ec05013164</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c854cbec3efc350197739ec0501319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:22</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c854cbec3efc350197739ec0501319a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0c854cbec3efc350197739ec0501319a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0c854cbec3efc350197739ec0501319a^sys_idNOT IN8c854cbec3efc350197739ec0501319c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0c854cbec3efc350197739ec0501319a</id>
+        <name>New Training Record Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>8c854cbec3efc350197739ec0501319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8c854cbec3efc350197739ec0501319c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0c854cbec3efc350197739ec0501319a^sys_idNOT IN14854cbec3efc350197739ec050131c9,d4854cbec3efc350197739ec050131ab"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Training Record Flow">0c854cbec3efc350197739ec0501319a</model>
+        <model_id>0c854cbec3efc350197739ec0501319a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0c854cbec3efc350197739ec0501319a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>14854cbec3efc350197739ec050131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=14854cbec3efc350197739ec050131c9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Training Record Flow">0c854cbec3efc350197739ec0501319a</model>
+        <model_id>0c854cbec3efc350197739ec0501319a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0c854cbec3efc350197739ec0501319a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>d4854cbec3efc350197739ec050131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d4854cbec3efc350197739ec050131ab"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0c854cbec3efc350197739ec0501319a^sys_idNOT INd0858cbec3efc350197739ec0501311d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New Training Record Flow">0c854cbec3efc350197739ec0501319a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:24</sys_created_on>
+        <sys_id>d0858cbec3efc350197739ec0501311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:24</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VZW2/iOBT+K1GediRGyoVL6dsMZbSVuq2WMrsPVTdyEhusNTaTOGmZUf/7HucCIRcKhXTpUxXbsb/z+TvfOaEPv3SGXMz0S32KXIb1jk65xAFHbLpaYhiWatjhaKHmFoj7SIpgpV/KIMIdnQRiMcWLJUMSFhPEQhgUgY8D/dLs6DFiEb5fhdc+7ATvJ9tke+rZNDw/O5ZlDbpdy+HPS8ejjuHIAFFO+cwJsAf7wWKfhnDM6q/snWm2QJvkC7w5ZX6AuX758NjRlyiAw6QC8qs0JSEyZyts7TaNjyqcHvHQ0MKGZ5u2ZRmGddE13b7tmpZvI2wYsK7MWSkuWUPdhhT8LDH3sb/mq8JqgJF/x9lqvWIOl5IyuEDPIf0Ju18Yah3BEJWH07n1o5NxlQ57c0E9fLeUVPB0JMWZTgoWLfhtil+xjAmKmMxZhpEohP3wUkFWIDJE5H4unib5gd8oT6LLJpnwEFs/ISkD6kYSh+oqCGVwKU7KTSiiIEE/GY/uJlfO31+mo9/HE2cyvp9OrkfT8ZX+ksTl/IjUjinCDIuThvOylsY3ipm6QB4tXEDT0UMvoEv5xZM0ztX50tkofiS4TxNWKqr38qlwW/V59LtkbxiNwvcKJ+bi/2f8Z1Xd6eDbFD0qYk8U3e8j5GPUoGiXFBRd5KQGtKyhpxj3Lm1nI/uIu2sY/5O8M1t7q7qfEJehI4WDfN8psARmABurEIWP2dXmPBinsxkkBOXLSIavyj2N7eVVbQcRhxec9X1UFZ7QtubvhoaA5gHy8x7/iFLSP4NZkZyqDD+5yQ6YRFwTXPOiADiSGlyzlh+mJSCVNMj1As0yomFjhj1Z0Ab5Hhaf/qBhCIZeCKYJS7KgCoatiohyMz4Gw+Mpk796JXEpnpIJvN0B8rtNst80CXExsYyByn3TsF1iGgOjh4hvG4ZnFbK/CrERuyzJqBUXOMwDwkTAbA9NlInPwBvFDNpL4PF2duQkKOFkVjM6DTTzRNAsBa1kmfZBnrkWazp8ta3ZXaGduJNAfozgDT+PcZ9OYQ/XJEw8gRsf75hEBHgWiIj7ZatSR2gU/m6taMcrXeT9uxvFZoX2W3apn87NNzeXkssa8VVrjmkT0x3iLjbAKG3wSLc3HLoesggZ9AfYMkuOuQFXi/hDOOUrYojr1NTkmrXyjuuy4gC/PAJgxTsPBni8a2ZyrfXMdO5juOPTHHMHoAYOU/5XMckZoz7O507rAZWj403Wn8oHbrKg1OnkYuj1zMHAG8AXE7gA6WIXmV2rh4aDvn3RK7lABd4u6LKGrXf5jgpXYQKkwSG+p1Pn9ZNBm1IOsZSqcB1d7ZPXUXpeodCqG9ISzxGBptjVrjcLtXsMZTP5sG6r+gs5r9R9QPIVxreQqB7yVvDPNeha/JDj8E2xD3ENyM6tSykpKt6+hJa+7nD3ojckdr1LkWGdS20gNoM/+65lT4HEjVKra1/2Tde4Nusb+403ZFxJPMVGZEendCpSzJOTYrVHin10d5ZnaOMn7VvAfqAqmLQmJyuFgmNHkFozp0TLfvDEvuauNDnHwC2Dflz9K0fBaLHapH12pRbCsJa1RK2VOXUnZVKuhAYTWvAutLRT60q6eY9vc+wPUK9nN3Tlw/K3eR3MV6I4+8p3sHDiOh3uLH+H7Vves7YAFtJsWyd7lraTRl1f346LurbCvRb18bVr1y8LNSjOtCo9/gdJx84aiiAAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0c854cbec3efc350197739ec0501319a^sys_idNOT IN9c858cbec3efc350197739ec0501311a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New Training Record Flow">0c854cbec3efc350197739ec0501319a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>9c858cbec3efc350197739ec0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+        <ui_id>6afa5a9f-23b5-4950-9d7e-9e2c600ba239</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VUwW7iMBD9FeRzQASa7ZbbCrZSpZZKi8QeqipynAlYcuzUdqAs4t93nDghS1EFUm8r5TIvz/a8mTfzsic8JRMSJSxMGPsWjcPhcIxfkoXpXTi8AxZ9v01vSUAkzQGZQq1iARsQCG2oKB3GZaYwTLkpBN0tPfpQo2zNRapBksnLa0AKqvEeC5pM9ie/Lk1E0ARfn5BHn8WZxOyucBBbK87Ax4/+2LQBlU5dGsOAwLsFmQK+n1FhICA5lSm1Su9aRANNn6U4AmsuLd5GHPnd8D/43s3Q8TJARQzqf20Y++LUcDajli6sLpkttafWyRqsxb6V2O/35kpCr9/vVLuT+iE4cn25T3rimWGX+ZtqyeWqQ94iciSPuuSfWivdoYKPPXd8wM6lkNFS2On1CsKLFYyuUTC+QsGNU1AX/7mwXKEbSeg8QxPRtEaJMpfz2mek1bs8sX+Nzs5OQWnQAlA4mznfeBNli7Xa/mo8cs9llZH/KRSjoo2otZonpXX13RMQkONFcU6LAgsRF1pteHUYk80HK4HBIBNqi48avpIDypy0AbqaDu4Rn1XwkmruZD7hNXj4EBCzM1NBjTmKRQvHb6XLpJbuNcRVoaojTPPC/sAHNuDTdeWvxnk0/mycIfp3fHMwhq6g06s5bHtWU+663dPAsGc9hrNocVg/LJzPydftoQsSb/z11GZ9VorfRQbbVzm2u4sWDdiMw5ftolEUfc0yOjfeHwfmqnn5/8bh9S+/f7v/aAcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c858cbec3efc350197739ec0501311a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0c854cbec3efc350197739ec0501319a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0c854cbec3efc350197739ec0501319a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>54858cbec3efc350197739ec05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0c854cbec3efc350197739ec0501319a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:23</sys_created_on>
+        <sys_id>58854cbec3efc350197739ec050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP Citizen Dev Training" source="x_2227442_nxp_ci_0">18a088e2c3238350197739ec0501319c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NXP Citizen Dev Training">18a088e2c3238350197739ec0501319c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0c854cbec3efc350197739ec0501319a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0c854cbec3efc350197739ec0501319a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>6e3b882ac3638350197739ec05013164</sys_id>
+        <latest_snapshot>0c854cbec3efc350197739ec0501319a</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6e3b882ac3638350197739ec05013164^sys_idNOT IN64858cbec3efc350197739ec0501315d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>6e3b882ac3638350197739ec05013164</plan_id>
+        <snapshot>0c854cbec3efc350197739ec0501319a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 02:19:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64858cbec3efc350197739ec0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 02:19:25</sys_updated_on>
+        <trigger display_value="">a8858cbec3efc350197739ec0501315a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6e3b882ac3638350197739ec05013164"/>
+</record_update>
